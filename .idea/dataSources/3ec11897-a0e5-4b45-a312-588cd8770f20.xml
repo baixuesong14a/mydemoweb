@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="mydb">
+  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.14">
+    <root id="1">
+      <ServerVersion>3.25.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="main">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <collation id="3" parent="1" name="BINARY"/>
+    <collation id="4" parent="1" name="NOCASE"/>
+    <collation id="5" parent="1" name="RTRIM"/>
+    <table id="6" parent="2" name="Data_Block"/>
+    <table id="7" parent="2" name="Data_Communication"/>
+    <table id="8" parent="2" name="Data_device"/>
+    <table id="9" parent="2" name="Equipment_failure"/>
+    <table id="10" parent="2" name="Indicator_statistics"/>
+    <table id="11" parent="2" name="Net_robustness"/>
+    <table id="12" parent="2" name="Resourc_red"/>
+    <table id="13" parent="2" name="sqlite_master">
+      <System>1</System>
+    </table>
+    <column id="14" parent="6" name="时间">
+      <Position>1</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="15" parent="6" name="所属方向">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="16" parent="6" name="所属台站">
+      <Position>3</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="17" parent="6" name="所属地点">
+      <Position>4</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="18" parent="6" name="阻断原因">
+      <Position>5</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="19" parent="6" name="所属系统">
+      <Position>6</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="20" parent="6" name="tag">
+      <Position>7</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="21" parent="7" name="所属系统">
+      <Position>1</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="22" parent="7" name="时间">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="23" parent="7" name="起始台站">
+      <Position>3</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="24" parent="7" name="终点台站">
+      <Position>4</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="25" parent="7" name="起始站标准收光">
+      <Position>5</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="26" parent="7" name="终点站标准收光">
+      <Position>6</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="27" parent="7" name="起始站实际收光">
+      <Position>7</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="28" parent="7" name="终点站实际收光">
+      <Position>8</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="29" parent="7" name="线路衰耗">
+      <Position>9</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="30" parent="7" name="误码计数">
+      <Position>10</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="31" parent="8" name="网元名称">
+      <Position>1</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="32" parent="8" name="所属系统">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="33" parent="8" name="所属台站">
+      <Position>3</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="34" parent="8" name="设备类型">
+      <Position>4</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="35" parent="8" name="开设时间">
+      <Position>5</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="36" parent="8" name="备品备件是否齐全">
+      <Position>6</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="37" parent="8" name="备品备件数量">
+      <Position>7</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="38" parent="8" name="保护类型">
+      <Position>8</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="39" parent="8" name="服务器容灾类型">
+      <Position>9</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="40" parent="9" name="时间">
+      <Position>1</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="41" parent="9" name="故障网元名称">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="42" parent="9" name="故障原因">
+      <Position>3</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="43" parent="10" name="台站">
+      <Position>1</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="44" parent="10" name="传输系统保护率">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="45" parent="10" name="传输质量合格率">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="46" parent="10" name="服务器容灾率">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="47" parent="10" name="光缆纤芯合格率">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="48" parent="10" name="光缆线路合格率">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="49" parent="10" name="光缆线路设施合格率">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="50" parent="10" name="机线设备老旧率">
+      <Position>8</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="51" parent="10" name="机线设备保护率">
+      <Position>9</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="52" parent="10" name="再生段合格率">
+      <Position>10</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="53" parent="10" name="主光合格率">
+      <Position>11</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="54" parent="11" name="台站">
+      <Position>1</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="55" parent="11" name="健壮性">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="56" parent="12" name="方向">
+      <Position>1</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="57" parent="12" name="总容量">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="58" parent="12" name="使用率">
+      <Position>3</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="59" parent="12" name="本台站">
+      <Position>4</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="60" parent="13" name="type">
+      <Position>1</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="61" parent="13" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="62" parent="13" name="tbl_name">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="63" parent="13" name="rootpage">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="64" parent="13" name="sql">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+  </database-model>
+</dataSource>
